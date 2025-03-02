@@ -2,24 +2,31 @@
 Welcome to Next.js Project
 This documentation covers the Crypto Price Tracker, a Next.js application that displays real-time cryptocurrency prices using the CoinGecko API, with state management handled by Zustand. The app features a modular component structure, search functionality, and manual refresh capabilities.
 
-# Project Setup Guide
-# Prerequisites
-- Node.js (v16 or higher)
-- npm (v7 or higher)
-- Git
+/crypto-price-tracker
+  /app
+    layout.js         # Root HTML structure
+    page.js          # Application entry point
+  /components
+    CryptoDashboard.js # Main dashboard component
+    SearchBar.js      # Search input component
+    PriceGrid.js      # Grid display component
+    CoinCard.js       # Individual coin card
+    RefreshButton.js  # Refresh button component
+  /store
+    store.js         # Zustand state management
+
 
 # Installation Steps
 1. **Clone the Repository**
    ```bash
-   git clone <https://github.com/OksanaKis/Crypto-Price-Tracker.git>
+   [git clone] (https://github.com/OksanaKis/Crypto-Price-Tracker.git)
 
-# Install Dependencies
+## Install Dependencies
 ```bash
 npm install
 Required packages:
 next
 react
-react-dom
 zustand (for state management)
 First, run the development server:
 npm run dev
@@ -32,8 +39,9 @@ bun dev
 ```
  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
    
-# Documentation Setup
+### Documentation Setup
 Navigate to the docs folder:
+
 ```bash
 cd ../docs
 npm start
