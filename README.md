@@ -11,7 +11,7 @@ This documentation covers the Crypto Price Tracker, a Next.js application that d
 # Installation Steps
 1. **Clone the Repository**
    ```bash
-   git clone (https://github.com/OksanaKis/Crypto-Price-Tracker.git)
+   git clone <https://github.com/OksanaKis/Crypto-Price-Tracker.git>
 
 # Install Dependencies
 ```bash
